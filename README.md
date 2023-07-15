@@ -16,10 +16,27 @@ http://localhost:8080/movies
     "yearReleased": 1978,
     "imgPath": "https://upload.wikimedia.org/wikipedia/en/1/18/Titanic_%281997_film%29_poster.png",
     "categories": [
+      {
+        "id": 1,
+        "name": "ROMANCE"
+      }
     ],
     "actors": [
+      {
+        "id": 1,
+        "name": "Leonardo DiCaprio",
+        "age": 52
+      }
     ],
     "streamings": [
+      {
+        "id": 1,
+        "name": "Netflix"
+      },
+      {
+        "id": 2,
+        "name": "Prime Video"
+      }
     ]
 }
 ```
