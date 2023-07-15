@@ -58,6 +58,9 @@ findByStreamingsId(Long streamingId) # http://localhost:8080/movies/search?strea
 ```sh
 findByActorsId(Long actorId) # http://localhost:8080/movies/search?actor={actorId}
 ```
+```sh
+insert(Movie obj) # http://localhost:8080/movies?{params}
+```
 ### Actors
 ```
 http://localhost:8080/actors
@@ -78,6 +81,9 @@ findByNameIgnoreCaseContains(String name) # http://localhost:8080/actors/search?
 ```sh
 findByAge(Integer age) # http://localhost:8080/actors/search?age={age}
 ```
+```sh
+insert(Actor obj) # http://localhost:8080/actors?{params}
+```
 ### Categories
 ```
 http://localhost:8080/categories
@@ -91,6 +97,9 @@ http://localhost:8080/categories
 ```sh
 findById(Long id) # http://localhost:8080/categories/{id}
 ```
+```sh
+insert(Category obj) # http://localhost:8080/categories?{params}
+```
 ### Streamings
 ```
 http://localhost:8080/streamings
@@ -103,4 +112,7 @@ http://localhost:8080/streamings
 ```
 ```sh
 findById(Long id) # http://localhost:8080/streamings/{id}
+```
+```sh
+insert(Streamings obj) # http://localhost:8080/streamings?{params}
 ```
