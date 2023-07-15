@@ -12,6 +12,7 @@ http://localhost:8080/movies
 {
     "id": 1,
     "name": "Titanic",
+    "description": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.",
     "yearReleased": 1978,
     "imgPath": "https://upload.wikimedia.org/wikipedia/en/1/18/Titanic_%281997_film%29_poster.png",
     "categories": [
