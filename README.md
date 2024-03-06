@@ -1,6 +1,7 @@
 # movie-api
 
 ## About
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white) ![Apache Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=Apache%20Maven&logoColor=white)
 > A movie API built with Spring.
 
 ## Endpoints
@@ -40,26 +41,26 @@ http://localhost:8080/movies
     ]
 }
 ```
-```sh
-findById(Long id) # http://localhost:8080/movies/{id}
+```Java
+findById(Long id) // http://localhost:8080/movies/{id}
 ```
-```sh
-findByNameIgnoreCaseContains(String name) # http://localhost:8080/movies/search?name={name}
+```Java
+findByNameIgnoreCaseContains(String name) // http://localhost:8080/movies/search?name={name}
 ```
-```sh
-findByYearReleased(Integer yearReleased) # http://localhost:8080/movies/search?year={yearReleased}
+```Java
+findByYearReleased(Integer yearReleased) // http://localhost:8080/movies/search?year={yearReleased}
 ```
-```sh
-findByCategoriesId(Long categoryId) # http://localhost:8080/movies/search?category={categoryId}
+```Java
+findByCategoriesId(Long categoryId) // http://localhost:8080/movies/search?category={categoryId}
 ```
-```sh
-findByStreamingsId(Long streamingId) # http://localhost:8080/movies/search?streaming={streamingId}
+```Java
+findByStreamingsId(Long streamingId) // http://localhost:8080/movies/search?streaming={streamingId}
 ```
-```sh
-findByActorsId(Long actorId) # http://localhost:8080/movies/search?actor={actorId}
+```Java
+findByActorsId(Long actorId) // http://localhost:8080/movies/search?actor={actorId}
 ```
-```sh
-insert(Movie obj) # http://localhost:8080/movies?{params}
+```Java
+insert(Movie obj) // http://localhost:8080/movies?{params}
 ```
 ### Actors
 ```
@@ -72,17 +73,17 @@ http://localhost:8080/actors
     "age": 47
 }
 ```
-```sh
-findById(Long id) # http://localhost:8080/actors/{id}
+```Java
+findById(Long id) // http://localhost:8080/actors/{id}
 ```
-```sh
-findByNameIgnoreCaseContains(String name) # http://localhost:8080/actors/search?name={name}
+```Java
+findByNameIgnoreCaseContains(String name) // http://localhost:8080/actors/search?name={name}
 ```
-```sh
-findByAge(Integer age) # http://localhost:8080/actors/search?age={age}
+```Java
+findByAge(Integer age) // http://localhost:8080/actors/search?age={age}
 ```
-```sh
-insert(Actor obj) # http://localhost:8080/actors?{params}
+```Java
+insert(Actor obj) // http://localhost:8080/actors?{params}
 ```
 ### Categories
 ```
@@ -94,11 +95,11 @@ http://localhost:8080/categories
     "name": "ROMANCE"
 }
 ```
-```sh
-findById(Long id) # http://localhost:8080/categories/{id}
+```Java
+findById(Long id) // http://localhost:8080/categories/{id}
 ```
-```sh
-insert(Category obj) # http://localhost:8080/categories?{params}
+```Java
+insert(Category obj) // http://localhost:8080/categories?{params}
 ```
 ### Streamings
 ```
@@ -110,9 +111,9 @@ http://localhost:8080/streamings
     "name": "Netflix"
 }
 ```
-```sh
-findById(Long id) # http://localhost:8080/streamings/{id}
+```Java
+findById(Long id) // http://localhost:8080/streamings/{id}
 ```
-```sh
-insert(Streamings obj) # http://localhost:8080/streamings?{params}
+```Java
+insert(Streamings obj) // http://localhost:8080/streamings?{params}
 ```
